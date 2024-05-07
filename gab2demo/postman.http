@@ -1,0 +1,20 @@
+### adicao
+GET http://localhost:8080/adicao?numero=2&outroNumero=4
+
+### subtracao
+POST http://localhost:8080/subtracao
+Content-Type: application/json
+
+{
+  "minuendo": "12",
+  "subtraendo": "3"
+}
+
+### multiplicacao
+GET http://localhost:8080/multiplicacao?numero=2&outroNumero=4
+
+### divisao
+GET http://localhost:8080/divisao?numero=15&outroNumero=3
+
+### exponenciacao
+GET http://localhost:8080/exponenciacao?numero=4&outroNumero=3
